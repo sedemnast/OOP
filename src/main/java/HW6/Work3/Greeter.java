@@ -1,9 +1,4 @@
 package HW6.Work3;
-// Нарушен принцип
-// Single responsibility principle
-// Принцип единственной ответственности
-// Модуль должен отвечать за одного и только одного актора
-
 
 public class Greeter {
     private String formality;
@@ -11,9 +6,8 @@ public class Greeter {
     public String communication() {
         switch (this.formality) {
             case "formal":
-                Formal formal = new Formal();         // для каждого актора создаем отдельный класс
+                Formal formal = new Formal();
                 return formal.greet();
-                // ... и еще много чего, что душа пожелает
             case "casual":
                 Casual casual = new Casual();
                 return casual.greet();

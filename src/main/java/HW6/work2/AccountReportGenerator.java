@@ -1,4 +1,5 @@
 package HW6.work2;
+
 public class AccountReportGenerator implements ReportGenerator, ReportGenerator1 {
 
     @Override
