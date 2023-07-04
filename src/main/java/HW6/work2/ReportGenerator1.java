@@ -1,0 +1,5 @@
+package HW6.work2;
+
+public interface ReportGenerator1 {
+    String generateJson();
+}
